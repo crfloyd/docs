@@ -249,7 +249,7 @@ We recommend using the tag name option whenever possible. The tag name is the na
 [!code-csharp[csrefKeyword#1](../../../../samples/snippets/csharp/language-reference/keywords/throw/throw-1.cs#1)]
 ```
 
-And you can see how the snippet tags are structured in [this source file](https://github.com/dotnet/docs/blob/master/samples/snippets/csharp/language-reference/keywords/throw/throw-1.cs). For details about tag name representation in code snippet source files by language, see the [DocFX guidelines](https://dotnet.github.io/docfx/spec/docfx_flavored_markdown.html#tag-name-representation-in-code-snippet-source-file).
+And you can see how the snippet tags are structured in [this source file](https://github.com/dotnet/samples/blob/master/snippets/csharp/language-reference/keywords/throw/throw-1.cs). For details about tag name representation in code snippet source files by language, see the [DocFX guidelines](https://dotnet.github.io/docfx/spec/docfx_flavored_markdown.html#tag-name-representation-in-code-snippet-source-file).
 
 Including snippets from full programs ensures that all code runs through our Continuous Integration (CI)
 system. However, if you need to show something that causes compile time or
@@ -269,6 +269,7 @@ Use three backticks (\`\`\`) + a language ID to apply language-specific color co
 |AzCopy|azcopy|
 |C++|cpp|
 |C#|csharp|
+|C# in browser|csharp-interactive]
 |F#|fsharp|
 |Java|java|
 |JavaScript|javascript|
@@ -284,6 +285,8 @@ Use three backticks (\`\`\`) + a language ID to apply language-specific color co
 |VB|vb|
 |XAML|xaml|
 |XML|xml|
+
+The `csharp-interactive` name specifies the C# language, and the ability to run the samples from the browser. These snippets are compiled and executed in a Docker container, and the results of that program execution are displayed in the user's browser window.
 
 The following are examples of code blocks using the language IDs for C# (\`\`\`csharp), Python (\`\`\`python), and PowerShell (\`\`\`powershell).
 
